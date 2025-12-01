@@ -66,32 +66,6 @@ A formatted Word report is generated:
 
 reports/Call_Analytics_Report.docx
 
-# Project Structure
->> project/
-│
-├── data/
-│   ├── call1.m4a
-│   ├── call2.m4a
-│   ├── call3.m4a
-│   ├── call1.json
-│   ├── call2.json
-│   ├── call3.json
-│   ├── call1_analysis.json
-│   ├── call2_analysis.json
-│   ├── call3_analysis.json
-│
-├── scripts/
-│   ├── transcribe_audio.py
-│   ├── analyze_transcript.py
-│   ├── generate_csv.py
-│   ├── generate_docx_report.py
-│
-├── reports/
-│   ├── all_calls_report.csv
-│   ├── Call_Analytics_Report.docx
-│
-└── README.md
-
 # Features
 
 ✔ Automated audio → text transcription
